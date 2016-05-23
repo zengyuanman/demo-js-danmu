@@ -1,0 +1,136 @@
+﻿@media (max-width:767px) { 
+}
+@media (min-width:768px) and (max-width:991px) { 
+}
+@media screen and (min-width:1200px) {
+  .a { }
+}
+/*html 5*/
+.tap{-webkit-tap-highlight-color: rgba(0,0,0,0)}
+[class*="col-"] { text-overflow:ellipsis; }
+/*效果一：360°旋转 修改rotate(旋转度数)     效果演示地址*/
+* { transition: All 0.4s ease-in-out; -webkit-transition: All 0.4s ease-in-out; -moz-transition: All 0.4s ease-in-out; -o-transition: All 0.4s ease-in-out; }
+*:hover { transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); }
+/*效果二：放大 修改scale(放大的值)     效果演示地址*/
+* { transition: All 0.4s ease-in-out; -webkit-transition: All 0.4s ease-in-out; -moz-transition: All 0.4s ease-in-out; -o-transition: All 0.4s ease-in-out; }
+*:hover { transform: scale(1.2); -webkit-transform: scale(1.2); -moz-transform: scale(1.2); -o-transform: scale(1.2); -ms-transform: scale(1.2); }
+/*效果三：旋转放大 修改rotate(旋转度数) scale(放大值)     效果演示地址*/
+* { transition: All 0.4s ease-in-out; -webkit-transition: All 0.4s ease-in-out; -moz-transition: All 0.4s ease-in-out; -o-transition: All 0.4s ease-in-out; }
+*:hover { transform: rotate(360deg) scale(1.2); -webkit-transform: rotate(360deg) scale(1.2); -moz-transform: rotate(360deg) scale(1.2); -o-transform: rotate(360deg) scale(1.2); -ms-transform: rotate(360deg) scale(1.2); }
+/*效果四：上下左右移动 修改translate(x轴,y轴)     效果演示地址*/
+* { transition: All 0.4s ease-in-out; -webkit-transition: All 0.4s ease-in-out; -moz-transition: All 0.4s ease-in-out; -o-transition: All 0.4s ease-in-out; }
+*:hover { transform: translate(0, -10px); -webkit-transform: translate(0, -10px); -moz-transform: translate(0, -10px); -o-transform: translate(0, -10px); -ms-transform: translate(0, -10px); }
+/* 图片背景IE拉伸 */
+.bg{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/plugin/xueqiu/static/img/001.jpg',sizingMethod='scale')}
+/* 强制折行 */
+.zh{word-break:break-all;word-wrap:break-word;}
+/* 不折行 */
+.zh{white-space:nowrap;}
+/* 旋转 */
+.all{-webkit-transition: all 0.3s ease-in-out;}
+.deg{-webkit-transition:-webkit-transform .4s ease-in;-webkit-transform:rotate(1080deg);}
+.transition{-webkit-transition:.1s all ease-in-out;}
+@-moz-keyframes html5{
+	0%{width:0px;}
+	100%{width:70%;}
+}
+.html5{width:70%;-moz-animation:html5 2s ease-out;-webkit-animation:html5 2s ease-out;}
+
+@-webkit-keyframes jump {
+	0% {top: 0;
+		-webkit-animation-timing-function: ease-in;
+	}
+	40% {}
+	50% {top: 140px;
+		height: 140px;
+		-webkit-animation-timing-function: ease-out;
+	}
+	55% {top: 160px; height: 120px; border-radius: 70px / 60px;
+		-webkit-animation-timing-function: ease-in;}
+	65% {top: 120px; height: 140px; border-radius: 70px;
+		-webkit-animation-timing-function: ease-out;}
+	95% {
+		top: 0;		
+		-webkit-animation-timing-function: ease-in;
+	}
+	100% {top: 0;
+		-webkit-animation-timing-function: ease-in;
+	}
+}
+.clearfix{*zoom:1;}
+.clearfix:before,.clearfix:after{display:table;content:"";height:0;visibility:hidden;}
+.clearfix:after{clear:both;}
+.bg{background:#dddddd;background:-moz-linear-gradient(top,#dddddd 0,#fbfbfb 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#dddddd),color-stop(100%,#fbfbfb));background:-webkit-linear-gradient(top,#dddddd 0,#fbfbfb 100%);background:-o-linear-gradient(top,#dddddd 0,#fbfbfb 100%);background:-ms-linear-gradient(top,#dddddd 0,#fbfbfb 100%);background:linear-gradient(to bottom,#dddddd 0,#fbfbfb 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddddd',endColorstr='#fbfbfb',GradientType=0);}
+.bg2{
+	background-color:#000;
+	background-color:rgba(0,0,0,.7);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000)\9;
+}
+
+.arrow_left{border-color:transparent #2d8dc8 transparent transparent;border-width:5px 5px 5px 0;border-style:dashed solid dashed none;}
+.arrow_right{border-color:transparent  transparent transparent #2d8dc8;border-width:5px 0 5px 5px;border-style:dashed none dashed solid;}
+.arrow_up{border-color:transparent  transparent #2d8dc8 transparent;border-width:0 5px 5px 5px;border-style:none dashed solid dashed;}
+.arrow_down{border-color:#2d8dc8 transparent  transparent transparent;border-width:5px 5px 0 5px;border-style:solid dashed none dashed;}
+
+.min-height{height:auto!important;height:500px;min-height:500px;}
+
+.op7{opacity:0.7;filter:alpha(opacity=70);}
+:root{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#00000000',EndColorStr='#00000000')\9;}
+
+.font{font-family: 'Hiragino Sans GB','Lantinghei SC','Microsoft Yahei',SimSun;}
+
+
+新细明体		PMingLiU  			\65B0\7EC6\660E\4F53
+细明体     		MingLiU				\7EC6\660E\4F53
+标楷体			DFKai-SB			\6807\6977\4F53
+黑体			SimHei				\9ED1\4F53
+宋体			SimSun				\5B8B\4F53
+新宋体			NSimSun				\65B0\5B8B\4F53
+仿宋			FangSong			\4EFF\5B8B
+楷体			KaiTi				\6977\4F53
+仿宋_GB2312		FangSong_GB2312		\4EFF\5B8B_GB2312
+楷体_GB2312		KaiTi_GB2312		\6977\4F53_GB2312
+微软正黑体		Microsoft JhengHei	\5FAE\x8F6F\6B63\9ED1\4F53
+微软雅黑		Microsoft YaHei		\5FAE\8F6F\96C5\9ED1
+/* KISSY CSS Reset
+理念：1. reset 的目的不是清除浏览器的默认样式，这仅是部分工作。清除和重置是紧密不可分的。
+2. reset 的目的不是让默认样式在所有浏览器下一致，而是减少默认样式有可能带来的问题。
+3. reset 期望提供一套普适通用的基础样式。但没有银弹，推荐根据具体需求，裁剪和修改后再使用。
+特色：1. 适应中文；2. 基于最新主流浏览器。
+维护：玉伯<lifesinger@gmail.com>,正淳<ragecarrier@gmail.com> */
+/* * 清除内外边距 * */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,/* structural elements 结构元素 */
+dl,dt,dd,ul,ol,li,/* list elements 列表元素 */
+pre,/* text formatting elements 文本格式元素 */
+form,fieldset,legend,button,input,textarea,/* form elements 表单元素 */
+th,td /* table elements 表格元素 */{margin:0;padding:0;}
+/* * 设置默认字体 * */
+body,button,input,select,textarea /* for ie */{font:12px/1.5 tahoma,arial,\5b8b\4f53,sans-serif;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+/* 将斜体扶正 */
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+/* 统一等宽字体 */
+small{font-size:12px;}
+/* 小于 12px 的中文很难阅读，让 small 正常化 */
+/* * 重置列表元素 * */
+ul,ol{list-style:none;}
+/* * 重置文本格式元素 * */
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+sup{vertical-align:text-top;}
+/* 重置，减少对行高的影响 */
+sub{vertical-align:text-bottom;}
+/* * 重置表单元素 * */
+legend{color:#000;}
+/* for ie6 */
+fieldset,img{border:0;}
+/* img 搭车：让链接里的 img 无边框 */
+button,input,select,textarea{font-size:100%;}
+/* 使得表单元素在 ie 下能继承字体大小 */
+/* 注：optgroup 无法扶正 */
+/* * 重置表格元素 * */
+table{border-collapse:collapse;border-spacing:0;}
+/* 重置 HTML5 元素 */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{display:block;margin:0;padding:0;}
+mark{background:#ff0;}
